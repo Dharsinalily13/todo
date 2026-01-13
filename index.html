@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productivity Dashboard</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Top Navbar -->
+    <nav class="top-navbar">
+        <div class="logo">📝 My Productivity App</div>
+        <button id="theme-toggle">🌙</button>
+    </nav>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <ul>
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="add-task.html">Add Task</a></li>
+            <li><a href="analytics.html">Analytics</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="settings.html">Settings</a></li>
+        </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <h1>Today's Tasks</h1>
+        <div id="task-list">
+            <!-- Tasks will be dynamically added here -->
+        </div>
+
+        <a href="add-task.html" class="add-task-btn">+ Add New Task</a>
+    </main>
+
+    <!-- JS -->
+    <script src="js/main.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
